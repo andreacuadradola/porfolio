@@ -1,0 +1,385 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+  }
+
+@media print {
+    .container {
+      min-width: 992px!important
+  }
+  }
+  
+  @media (min-width:576px) {
+    .container {
+        max-width: 540px
+    }
+  }
+  
+  @media (min-width:768px) {
+    .container {
+        max-width: 720px
+    }
+  }
+  
+  @media (min-width:992px) {
+    .container {
+        max-width: 960px
+    }
+  }
+  
+  @media (min-width:1200px) {
+    .container {
+        max-width: 1140px
+    }
+  }
+
+*,
+::after,
+::before {
+    box-sizing: border-box
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent
+}
+
+#brand-logo {
+    width: 25px;
+}
+
+.w-100{
+    width: 100%;    
+}
+
+nav {
+    position: fixed;
+    height: 54px;
+    top: 0;
+    border-bottom: 1px solid rgba(206, 206, 206, 0.301);
+    padding: 8px 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1b1c1c;
+    z-index: 5;
+}
+
+.items-nav a {
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: white;   
+    font-weight: 300;
+}
+
+#section-one {
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url("https://nickboes.com/wp/wp-content/uploads/2017/01/home_headerImage5_tab.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.section-one-content h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 75px;
+    color: white;
+    font-weight: 100;
+    margin: auto;
+}
+
+.second-title-home{
+    margin-top: -15px !important;
+}
+
+.section-one-content  h4, .section-title{
+    text-transform: uppercase;
+    font-size: 15px;
+    color: rgb(93, 210, 240);
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+#name-owner {
+    color: white;
+}
+
+#scroll {
+    position: absolute; 
+    bottom: 2%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;   
+}
+
+#scroll img {
+    width: 30px;
+    opacity: 0.5;
+}
+
+.section-3-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.proyect-img img {
+    width: 100%;
+    max-width: 400px;   
+}
+
+.section-title {
+    color: rgb(16, 128, 143);
+    font-weight: 300;
+
+}
+
+.section-3-content div,.section-4-content div {
+    max-width: 50%;
+
+}
+
+.section-paragraph {
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 300;
+
+}
+
+.link-case-study {
+    text-transform: uppercase;
+    color: black;
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: 3px;
+}
+
+#section-3, #section-4 {
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.section-4-content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#section-4 {
+    background-color: rgb(14, 168, 161);
+}
+
+.section-4-content div .section-paragraph {
+    color: white;
+}
+
+.section-4-content div .section-title {
+    color: black;
+}
+
+#section-2 {
+    background-color: rgb(58, 58, 58);
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.section-2-content div .section-paragraph {
+    color: white;   
+}
+
+.section-2-content div .section-title {
+    color: white;
+}
+
+#section-2 div .section-title {
+    padding-top: 20px;
+    margin-top: 0;
+}
+
+
+
+/* FOOTER */
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: black;
+}
+
+.footer-content i {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 36px;
+    color: white;
+    transition: 0.3s;
+}
+
+footer div h4 {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.699);
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+}
+
+.footer-content .fa-linkedin:hover {
+    color: #0e76a8;
+}
+
+.footer-content .fa-envelope-square:hover {
+    color: #b23121;
+}
+
+.footer-content .fa-paperclip:hover {
+    color: grey;
+}
+
+.footer-content .fa-phone-square-alt:hover {
+    color: #54b948;
+}
+
+.footer-content{
+    text-align: center;
+}
+
+.footer-content a{
+    cursor: pointer;
+}
+
+.footer-content i p{
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* EMPIEZA SECCIÓN SOBRE MI */
+
+.aboutContainer {
+    margin-top: 54px;
+    padding-top: 150px;
+    height: calc(100vh - 54px);
+    background-color: rgb(48, 48, 48);
+    width: 100%;
+}
+
+.about-container {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.h1-about h1{
+    font-family: 'lato';
+    text-transform: uppercase;
+    font-weight: 400;
+    color: rgb(33, 144, 172);
+    font-size: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.about-container div{
+    width: 50%;
+}
+
+.about-container p {
+    font-family: 'lato', sans-serif;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    color: whitesmoke;
+    font-weight: 300;
+}
+.p-title {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.about-container img {
+    width: 100%;
+    
+}
+ 
+.about-container img:hover {
+    color: black;
+    }
+
+#about-me-img {
+    transition-property: all;
+    transition-timing-function: linear;
+    transition-duration: 300ms;
+    filter: brightness(.8);
+}
+
+
+#about-me-img:hover {
+    filter: brightness(1);
+    transform: scale(1.03);
+    transition-property: all;
+    transition-timing-function: linear;
+    transition-duration: 300ms;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+#section-6 {
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    background-image: url("../img/bg-code.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.section-4-content .section-4-title{
+    color: rgb(33, 144, 172);
+}
+
+#link-case-study-code{
+    color: rgb(143, 142, 142);
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: 3px;
+}
