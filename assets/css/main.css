@@ -9,6 +9,20 @@ body {
 }
 
 
+#img-fitgether-shadow {
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#google-home-shadow {
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0px 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 28px;
+}
+
+#proyect-image-juergas {
+    max-width: 100% !important;
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 a {
     text-decoration: none;
 }
@@ -77,7 +91,7 @@ nav {
     height: 54px;
     top: 0;
     border-bottom: 1px solid rgba(206, 206, 206, 0.301);
-    padding: 8px 25px;
+    padding: 8px 25px;   
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -101,9 +115,9 @@ nav {
     height: 100vh;
     display: flex;
     align-items: center;
-    background: url("https://nickboes.com/wp/wp-content/uploads/2017/01/home_headerImage5_tab.jpg");
+    background: url("../img/Prueba03.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: right;
 }
 
 .section-one-content h2 {
@@ -148,12 +162,23 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
 
+#section-juergas-text {
+    max-width: 35%;
+}
+
+#proyect-image-juergas {
+    max-width: 65% !important;
+}
+
+#image-juergas {
+    max-width: 550px !important;
 }
 
 .proyect-img img {
     width: 100%;
-    max-width: 400px;   
+    max-width: 245px;   
 }
 
 .section-title {
@@ -231,9 +256,21 @@ nav {
 /* FOOTER */
 
 .footer-content{
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.center-footer-content {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.footer-content a {
+    text-align: center;
 }
 
 footer {
@@ -243,8 +280,6 @@ footer {
 }
 
 .footer-content i {
-    margin-left: 30px;
-    margin-right: 30px;
     font-size: 36px;
     color: white;
     transition: 0.3s;
@@ -294,9 +329,10 @@ footer div h4 {
 /* EMPIEZA SECCIÓN SOBRE MI */
 
 .aboutContainer {
-    margin-top: 54px;
-    padding-top: 150px;
-    height: calc(100vh - 54px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
     background-color: rgb(48, 48, 48);
     width: 100%;
 }
@@ -304,39 +340,62 @@ footer div h4 {
 .about-container {
     width: 95%;
     margin: 0 auto;
+    padding-top: 50px;
     display: flex;
 }
 
-.h1-about h1{
-    font-family: 'lato';
-    text-transform: uppercase;
-    font-weight: 400;
-    color: rgb(33, 144, 172);
-    font-size: 30px;
-    padding-left: 40px;
-    padding-right: 40px;
+.image-about {
+    display: flex;
+    align-items: center;
 }
 
+.background-about {
+    background: url("../img/Prueba03.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.h1-about h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: rgb(212, 212, 212);
+    font-size: 61px;
+    line-height: 4.5rem;
+    padding-bottom: 15px;
+    margin-bottom: 0px;
+}
+
+.h1-about {
+    padding: 40px;
+}
+
+.quote-line {
+    margin-left: 40px;
+    width: 55px !important;
+    height: 3px;
+    background-color: white;
+    margin: 10px 0px;
+} 
 
 .about-container div{
-    width: 50%;
+    width: 70%;
 }
 
 .about-container p {
     font-family: 'lato', sans-serif;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 20px;
+    padding-top: 10px;
     color: whitesmoke;
     font-weight: 300;
 }
 .p-title {
     text-transform: uppercase;
     font-size: 20px;
+    letter-spacing: 2px;
+    color: rgb(93, 210, 240) !important;
+
 }
 .about-container img {
-    width: 100%;
-    
+    width: 100%;  
 }
  
 .about-container img:hover {
@@ -383,3 +442,70 @@ footer div h4 {
     font-size: 11px;
     letter-spacing: 3px;
 }
+
+
+
+@media (max-width: 720px) {
+    .section-one-content h2 {
+        font-size: 46px;
+    }
+
+    .section-3-content, .section-4-content{
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    #section-3, #section-4 {
+        padding-bottom: 0px;
+    }
+
+    .section-3-content > div, .section-4-content > div{
+        max-width: 100% !important;
+        padding-bottom: 45px;
+    }
+
+    #proyect-image-juergas {
+        max-width: 100% !important;
+        box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    #img-fitgether-shadow {
+        box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0px 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    #google-home-shadow {
+        box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0px 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 28px;
+    }
+
+    .about-container div {
+        width: 100%;
+    }
+    .about-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center
+    }
+
+    .h1-about h1{
+        font-family: 'Playfair Display', serif;
+        font-weight: 400;
+        color: rgb(212, 212, 212);
+        font-size: 40px;
+        line-height: 3.5rem;
+        padding-bottom: 15px;
+        margin-bottom: 0px;
+    }
+    .background-about {
+        background-position: right !important;
+    }
+    .aboutContainer {
+        height: inherit;
+    }
+    .gray-overlay {
+        background-color: rgba(0,0,0,0.6);
+        height: inherit;
+    }
+  }
