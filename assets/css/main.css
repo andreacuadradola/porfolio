@@ -79,7 +79,9 @@ html {
 }
 
 #brand-logo {
-    width: 25px;
+    width: 60px;
+    border-top: 10px;
+    border-bottom: 10px;
 }
 
 .w-100{
