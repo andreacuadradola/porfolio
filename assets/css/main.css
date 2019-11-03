@@ -79,9 +79,7 @@ html {
 }
 
 #brand-logo {
-    width: 60px;
-    border-top: 10px;
-    border-bottom: 10px;
+    width: 45px !important;
 }
 
 .w-100{
@@ -90,10 +88,11 @@ html {
 
 nav {
     position: fixed;
-    height: 54px;
+    height: 75px;
     top: 0;
     border-bottom: 1px solid rgba(206, 206, 206, 0.301);
-    padding: 8px 25px;   
+    padding: 8px 25px; 
+    padding-top: 15px; 
     display: flex;
     flex-direction: row;
     align-items: center;
