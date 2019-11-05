@@ -139,6 +139,7 @@ nav {
     color: rgb(93, 210, 240);
     letter-spacing: 2px;
     font-weight: 100;
+    color: rgb(16, 128, 143);
 }
 
 #name-owner {
@@ -403,22 +404,9 @@ footer div h4 {
     color: black;
     }
 
-#about-me-img {
-    transition-property: all;
-    transition-timing-function: linear;
-    transition-duration: 300ms;
-    filter: brightness(.8);
-}
-
-
-#about-me-img:hover {
-    filter: brightness(1);
-    transform: scale(1.03);
-    transition-property: all;
-    transition-timing-function: linear;
-    transition-duration: 300ms;
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
+.h1-about p {
+    font-size: 20px;
+    font-weight: 100;
 }
 
 #section-6 {
@@ -433,16 +421,9 @@ footer div h4 {
 }
 
 .section-4-content .section-4-title{
-    color: rgb(33, 144, 172);
+    color: rgb(16, 128, 143);
 }
 
-#link-case-study-code{
-    color: rgb(143, 142, 142);
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 11px;
-    letter-spacing: 3px;
-}
 
 
 
